@@ -1,0 +1,40 @@
+{
+  "note": "海滩登陆类型配置。每种类型对应一套点击流程，不需要每一关都录制。",
+  "profiles": [
+    {
+      "id": "left_beach",
+      "name": "左侧海滩",
+      "sample": "screenshots/beach_samples/left_beach.png",
+      "actions": "configs/actions/left_beach.json",
+      "description": "海滩主要在左侧或左下侧。"
+    },
+    {
+      "id": "right_beach",
+      "name": "右侧海滩",
+      "sample": "screenshots/beach_samples/right_beach.png",
+      "actions": "configs/actions/right_beach.json",
+      "description": "海滩主要在右侧或右下侧。"
+    },
+    {
+      "id": "center_beach",
+      "name": "中间海滩",
+      "sample": "screenshots/beach_samples/center_beach.png",
+      "actions": "configs/actions/center_beach.json",
+      "description": "海滩主要在中间。"
+    },
+    {
+      "id": "split_beach",
+      "name": "分散海滩",
+      "sample": "screenshots/beach_samples/split_beach.png",
+      "actions": "configs/actions/split_beach.json",
+      "description": "可登陆区域分散，需要分批下兵。"
+    },
+    {
+      "id": "diagonal_beach",
+      "name": "斜向海滩",
+      "sample": "screenshots/beach_samples/diagonal_beach.png",
+      "actions": "configs/actions/diagonal_beach.json",
+      "description": "海滩呈斜向或狭长形。"
+    }
+  ]
+}
